@@ -46,11 +46,22 @@
 
 <div dir="rtl">
 
+## دانلود
+
+**روش اول – کتابخانه‌ی کامل (پیشنهادی)**
+همه‌ی قطعات در یک بسته: به صفحه‌ی [**Releases**](https://github.com/africazani/africazani-altium-library/releases/latest) بروید و آخرین فایل `.zip` را از بخش *Assets* دانلود کنید. هر نسخه توضیحاتی دارد که می‌گوید چه چیزی اضافه یا تغییر کرده است.
+
+**روش دوم – یک قطعه‌ی مشخص**
+در همین ریپو پوشه‌ی دسته‌ها را باز کنید، قطعه‌ی موردنظر را پیدا کنید و فایل‌هایش را دانلود کنید:
+
+۱. پوشه‌ی قطعه را باز کنید (مثلاً `Modules/ESP32-WROOM-32U/`).
+۲. روی فایل کلیک کنید و دکمه‌ی **Download raw file** را بزنید (یا با *Code → Download ZIP* کل ریپو را دانلود کنید).
+
 ## نحوه‌ی استفاده در Altium Designer
 
-۱. پوشه‌ی قطعه (یا کل ریپو به‌صورت zip) را دانلود کنید.
-۲. در آلتیوم فایل‌های `.SchLib` و `.PcbLib` را از مسیر *Components → File-based Libraries Preferences* اضافه کنید.
-۳. مدل سه‌بعدی به فوت‌پرینت وصل است. اگر نمایش داده نشد، فایل `.step` را از پوشه‌ی قطعه در پنل PCB Library دوباره لینک کنید.
+۱. کتابخانه‌ی کامل را از [Releases](https://github.com/africazani/africazani-altium-library/releases/latest) یا یک قطعه را از پوشه‌ی خودش دانلود کنید.
+۲. در آلتیوم فایل‌های `.SchLib` و `.PcbLib` (یا `.IntLib`) را از مسیر *Components → File-based Libraries Preferences* اضافه کنید.
+۳. مدل سه‌بعدی به فوت‌پرینت وصل است. اگر نمایش داده نشد، فایل `.step` را در پنل PCB Library دوباره لینک کنید.
 
 ## نکات
 

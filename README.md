@@ -40,11 +40,22 @@ Each part lives in its own folder inside its category:
     └── preview.png
 ```
 
+## Download
+
+**Option 1 – The complete library (recommended)**
+Everything in one package: go to the [**Releases**](https://github.com/africazani/africazani-altium-library/releases/latest) page and download the latest `.zip` from the *Assets* section. Each release has release notes listing what was added or changed.
+
+**Option 2 – A single part**
+Browse the category folders in this repository, open the part you need and download its files:
+
+1. Open the part folder (e.g. `Modules/ESP32-WROOM-32U/`).
+2. Click a file, then the **Download raw file** button (or use *Code → Download ZIP* to get the whole repository).
+
 ## How to use in Altium Designer
 
-1. Download the part folder (or the whole repo as a zip).
-2. In Altium Designer, add the `.SchLib` / `.PcbLib` files via *Components → File-based Libraries Preferences*.
-3. The 3D body is linked to the footprint. If it doesn't show, re-link the `.step` file from the part folder in the PCB Library panel.
+1. Download the complete library from [Releases](https://github.com/africazani/africazani-altium-library/releases/latest), or a single part from its folder.
+2. In Altium Designer, add the `.SchLib` / `.PcbLib` files (or the `.IntLib`) via *Components → File-based Libraries Preferences*.
+3. The 3D body is linked to the footprint. If it doesn't show, re-link the `.step` file in the PCB Library panel.
 
 ## Notes
 
