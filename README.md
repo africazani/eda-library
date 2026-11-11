@@ -71,7 +71,7 @@ You are free to use, modify, and distribute these files, including commercially,
 
 > Altium/KiCad libraries and 3D models by **africazani** – https://github.com/africazani/eda-library
 
-How to credit the library in your own project: see [Library-Info](Library-Info/#crediting-this-library-in-your-project).
+How to credit the library in your own project: see [Library-Info](Library-Info/README.md#crediting-this-library-in-your-project).
 
 ## Contact
 
