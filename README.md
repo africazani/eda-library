@@ -1,6 +1,6 @@
 [English](README.md) | [فارسی](README.fa.md)
 
-# Altium Library
+# EDA Library
 
 A collection of component libraries for **Altium Designer** and **KiCad**, with detailed **3D STEP models** (including the markings printed on the ICs): schematic symbols, footprints and 3D bodies for modules, ICs, connectors, passives and many other parts.
 
@@ -54,7 +54,7 @@ Components/<Category>/<Part-Name>/
 ## Download
 
 **Option 1 – The complete library (recommended)**
-Everything in one package: go to the [**Releases**](https://github.com/africazani/africazani-altium-library/releases/latest) page and download the latest `.zip` from the *Assets* section. Each release has release notes listing what was added or changed.
+Everything in one package: go to the [**Releases**](https://github.com/africazani/eda-library/releases/latest) page and download the latest `.zip` from the *Assets* section. Each release has release notes listing what was added or changed.
 
 **Option 2 – A single part**
 Browse the [`Components`](Components/) folder, open the part you need and download its files:
@@ -69,7 +69,7 @@ Installation steps and notes: see [Library-Info](Library-Info/).
 This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 You are free to use, modify, and distribute these files, including commercially, as long as you give credit:
 
-> Altium/KiCad libraries and 3D models by **africazani** – https://github.com/africazani/africazani-altium-library
+> Altium/KiCad libraries and 3D models by **africazani** – https://github.com/africazani/eda-library
 
 How to credit the library in your own project: see [Library-Info](Library-Info/#crediting-this-library-in-your-project).
 

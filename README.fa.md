@@ -2,7 +2,7 @@
 
 <div dir="rtl">
 
-# کتابخانه آلتیوم
+# کتابخانه EDA
 
 مجموعه‌ای از کتابخانه‌های **Altium Designer** و **KiCad** همراه با مدل‌های سه‌بعدی **STEP** با جزئیات بالا (شامل نوشته‌های روی IC ها): نماد شماتیک، فوت‌پرینت و بدنه‌ی سه‌بعدی برای ماژول‌ها، آی‌سی‌ها، کانکتورها، قطعات پسیو و بسیاری قطعات دیگر.
 
@@ -64,7 +64,7 @@ Components/<Category>/<Part-Name>/
 ## دانلود
 
 **روش اول – کتابخانه‌ی کامل (پیشنهادی)**
-همه‌ی قطعات در یک بسته: به صفحه‌ی [**Releases**](https://github.com/africazani/africazani-altium-library/releases/latest) بروید و آخرین فایل `.zip` را از بخش *Assets* دانلود کنید. هر نسخه توضیحاتی دارد که می‌گوید چه چیزی اضافه یا تغییر کرده است.
+همه‌ی قطعات در یک بسته: به صفحه‌ی [**Releases**](https://github.com/africazani/eda-library/releases/latest) بروید و آخرین فایل `.zip` را از بخش *Assets* دانلود کنید. هر نسخه توضیحاتی دارد که می‌گوید چه چیزی اضافه یا تغییر کرده است.
 
 **روش دوم – یک قطعه‌ی مشخص**
 در همین ریپو پوشه‌ی [`Components`](Components/) را باز کنید، قطعه‌ی موردنظر را پیدا کنید و فایل‌هایش را دانلود کنید:
@@ -79,7 +79,7 @@ Components/<Category>/<Part-Name>/
 این اثر تحت لایسنس [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) منتشر شده است.
 استفاده، تغییر و انتشار این فایل‌ها (حتی تجاری) آزاد است، به شرط ذکر نام سازنده:
 
-> کتابخانه‌های Altium/KiCad و مدل‌های سه‌بعدی توسط **africazani** – https://github.com/africazani/africazani-altium-library
+> کتابخانه‌های Altium/KiCad و مدل‌های سه‌بعدی توسط **africazani** – https://github.com/africazani/eda-library
 
 روش ذکر نام کتابخانه در پروژه‌ی خودتان: [Library-Info](Library-Info/README.fa.md) را ببینید.
 

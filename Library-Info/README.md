@@ -18,7 +18,7 @@ The `.step` files are neutral, so you can use the 3D models with any software ev
 
 ## How to use in Altium Designer
 
-1. Download the complete library from [Releases](https://github.com/africazani/africazani-altium-library/releases/latest), or a single part from its folder.
+1. Download the complete library from [Releases](https://github.com/africazani/eda-library/releases/latest), or a single part from its folder.
 2. In Altium Designer, add the `.SchLib` / `.PcbLib` files (or the `.IntLib`) via *Components → File-based Libraries Preferences*.
 3. The 3D body is linked to the footprint. If it doesn't show, re-link the `.step` file in the PCB Library panel.
 
@@ -35,7 +35,7 @@ Menu names can differ slightly between KiCad versions.
 The files are licensed under CC BY 4.0, so you need to give credit. You don't have to put it on the PCB itself. Add one line wherever your project is documented (README, credits page, BOM notes, video description):
 
 ```
-Altium/KiCad libraries and 3D models by africazani – https://github.com/africazani/africazani-altium-library (CC BY 4.0)
+Altium/KiCad libraries and 3D models by africazani – https://github.com/africazani/eda-library (CC BY 4.0)
 ```
 
 If you modified the files, mention that they were changed.
@@ -47,4 +47,4 @@ If you modified the files, mention that they were changed.
 
 ## Changelog
 
-See the notes of each version on the [Releases](https://github.com/africazani/africazani-altium-library/releases) page, and [CHANGELOG.md](CHANGELOG.md).
+See the notes of each version on the [Releases](https://github.com/africazani/eda-library/releases) page, and [CHANGELOG.md](CHANGELOG.md).

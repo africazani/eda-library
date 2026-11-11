@@ -20,7 +20,7 @@
 
 ## نحوه‌ی استفاده در Altium Designer
 
-۱. کتابخانه‌ی کامل را از [Releases](https://github.com/africazani/africazani-altium-library/releases/latest) یا یک قطعه را از پوشه‌ی خودش دانلود کنید.
+۱. کتابخانه‌ی کامل را از [Releases](https://github.com/africazani/eda-library/releases/latest) یا یک قطعه را از پوشه‌ی خودش دانلود کنید.
 ۲. در آلتیوم فایل‌های `.SchLib` و `.PcbLib` (یا `.IntLib`) را از مسیر *Components → File-based Libraries Preferences* اضافه کنید.
 ۳. مدل سه‌بعدی به فوت‌پرینت وصل است. اگر نمایش داده نشد، فایل `.step` را در پنل PCB Library دوباره لینک کنید.
 
@@ -39,7 +39,7 @@
 </div>
 
 ```
-Altium/KiCad libraries and 3D models by africazani – https://github.com/africazani/africazani-altium-library (CC BY 4.0)
+Altium/KiCad libraries and 3D models by africazani – https://github.com/africazani/eda-library (CC BY 4.0)
 ```
 
 <div dir="rtl">
@@ -53,6 +53,6 @@ Altium/KiCad libraries and 3D models by africazani – https://github.com/africa
 
 ## تغییرات نسخه‌ها
 
-توضیحات هر نسخه را در صفحه‌ی [Releases](https://github.com/africazani/africazani-altium-library/releases) و فایل [CHANGELOG.md](CHANGELOG.md) ببینید.
+توضیحات هر نسخه را در صفحه‌ی [Releases](https://github.com/africazani/eda-library/releases) و فایل [CHANGELOG.md](CHANGELOG.md) ببینید.
 
 </div>
