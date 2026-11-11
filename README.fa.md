@@ -12,36 +12,51 @@
 
 | پوشه | محتوا |
 |---|---|
-| [`Resistors`](Resistors/) | مقاومت‌ها |
-| [`Capacitors`](Capacitors/) | خازن‌ها |
-| [`Inductors-Relays-Chokes`](Inductors-Relays-Chokes/) | سلف، رله و چوک |
-| [`Diodes-LEDs`](Diodes-LEDs/) | دیود و LED |
-| [`Transistors`](Transistors/) | ترانزیستور و ماسفت |
-| [`ICs`](ICs/) | آی‌سی‌ها |
-| [`MCUs`](MCUs/) | میکروکنترلرها |
-| [`Modules`](Modules/) | ماژول‌ها (ESP32-WROOM-32U و ...) |
-| [`Connectors`](Connectors/) | کانکتورها |
-| [`Sensors`](Sensors/) | سنسورها |
-| [`Crystals-Oscillators`](Crystals-Oscillators/) | کریستال و اسیلاتور |
-| [`Switches-Buttons`](Switches-Buttons/) | کلید و دکمه |
-| [`Displays`](Displays/) | نمایشگرها |
-| [`Protection`](Protection/) | فیوز، TVS، وریستور و قطعات حفاظتی |
-| [`Mechanical`](Mechanical/) | قطعات مکانیکی (سوراخ، پایه، قاب) |
-| [`Misc`](Misc/) | سایر قطعات |
+| [`Resistors`](Components/Resistors/) | مقاومت‌ها |
+| [`Capacitors`](Components/Capacitors/) | خازن‌ها |
+| [`Inductors-Relays-Chokes`](Components/Inductors-Relays-Chokes/) | سلف، رله و چوک |
+| [`Diodes-LEDs`](Components/Diodes-LEDs/) | دیود و LED |
+| [`Transistors`](Components/Transistors/) | ترانزیستور و ماسفت |
+| [`ICs`](Components/ICs/) | آی‌سی‌ها |
+| [`MCUs`](Components/MCUs/) | میکروکنترلرها |
+| [`Modules`](Components/Modules/) | ماژول‌ها (ESP32-WROOM-32U و ...) |
+| [`Connectors`](Components/Connectors/) | کانکتورها |
+| [`Sensors`](Components/Sensors/) | سنسورها |
+| [`Crystals-Oscillators`](Components/Crystals-Oscillators/) | کریستال و اسیلاتور |
+| [`Switches-Buttons`](Components/Switches-Buttons/) | کلید و دکمه |
+| [`Displays`](Components/Displays/) | نمایشگرها |
+| [`Protection`](Components/Protection/) | فیوز، TVS، وریستور و قطعات حفاظتی |
+| [`Mechanical`](Components/Mechanical/) | قطعات مکانیکی (سوراخ، پایه، قاب) |
+| [`Misc`](Components/Misc/) | سایر قطعات |
 
-## ساختار پوشه‌ها
+## ساختار ریپو
+
+</div>
+
+```
+/
+├── Components/     همه‌ی قطعات، دسته‌بندی‌شده (هر قطعه یک پوشه)
+├── Library-Info/   راهنمای استفاده، نکات و تغییرات
+├── LICENSE
+├── README.md
+└── README.fa.md
+```
+
+<div dir="rtl">
+
+- دنبال یک قطعه‌ی مشخص هستید؟ پوشه‌ی [`Components`](Components/) را باز کنید و دسته‌ی آن را انتخاب کنید.
+- می‌خواهید بدانید کتابخانه چطور نصب و استفاده می‌شود؟ به [`Library-Info`](Library-Info/) بروید.
 
 هر قطعه داخل دسته‌ی خودش یک پوشه‌ی جدا دارد:
 
 </div>
 
 ```
-<Category>/
-└── <Part-Name>/
-    ├── <Part-Name>.step
-    ├── <Part-Name>.SchLib
-    ├── <Part-Name>.PcbLib
-    └── preview.png
+Components/<Category>/<Part-Name>/
+├── <Part-Name>.step
+├── <Part-Name>.SchLib
+├── <Part-Name>.PcbLib
+└── preview.png
 ```
 
 <div dir="rtl">
@@ -52,21 +67,12 @@
 همه‌ی قطعات در یک بسته: به صفحه‌ی [**Releases**](https://github.com/africazani/africazani-altium-library/releases/latest) بروید و آخرین فایل `.zip` را از بخش *Assets* دانلود کنید. هر نسخه توضیحاتی دارد که می‌گوید چه چیزی اضافه یا تغییر کرده است.
 
 **روش دوم – یک قطعه‌ی مشخص**
-در همین ریپو پوشه‌ی دسته‌ها را باز کنید، قطعه‌ی موردنظر را پیدا کنید و فایل‌هایش را دانلود کنید:
+در همین ریپو پوشه‌ی [`Components`](Components/) را باز کنید، قطعه‌ی موردنظر را پیدا کنید و فایل‌هایش را دانلود کنید:
 
-۱. پوشه‌ی قطعه را باز کنید (مثلاً `Modules/ESP32-WROOM-32U/`).
+۱. پوشه‌ی قطعه را باز کنید (مثلاً `Components/Modules/ESP32-WROOM-32U/`).
 ۲. روی فایل کلیک کنید و دکمه‌ی **Download raw file** را بزنید (یا با *Code → Download ZIP* کل ریپو را دانلود کنید).
 
-## نحوه‌ی استفاده در Altium Designer
-
-۱. کتابخانه‌ی کامل را از [Releases](https://github.com/africazani/africazani-altium-library/releases/latest) یا یک قطعه را از پوشه‌ی خودش دانلود کنید.
-۲. در آلتیوم فایل‌های `.SchLib` و `.PcbLib` (یا `.IntLib`) را از مسیر *Components → File-based Libraries Preferences* اضافه کنید.
-۳. مدل سه‌بعدی به فوت‌پرینت وصل است. اگر نمایش داده نشد، فایل `.step` را در پنل PCB Library دوباره لینک کنید.
-
-## نکات
-
-- ابعاد طبق دیتاشیت سازنده است؛ قبل از ساخت برد حتماً با آخرین دیتاشیت بررسی کنید.
-- لوگوها و علائم تجاری روی مدل‌ها متعلق به صاحبان آن‌هاست.
+مراحل نصب و نکات: [Library-Info](Library-Info/) را ببینید.
 
 ## لایسنس
 

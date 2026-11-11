@@ -10,34 +10,45 @@ A collection of **Altium Designer** component libraries with detailed **3D STEP 
 
 | Folder | Contents |
 |---|---|
-| [`Resistors`](Resistors/) | Resistors |
-| [`Capacitors`](Capacitors/) | Capacitors |
-| [`Inductors-Relays-Chokes`](Inductors-Relays-Chokes/) | Inductors, relays and chokes |
-| [`Diodes-LEDs`](Diodes-LEDs/) | Diodes and LEDs |
-| [`Transistors`](Transistors/) | Transistors and MOSFETs |
-| [`ICs`](ICs/) | Integrated circuits |
-| [`MCUs`](MCUs/) | Microcontrollers |
-| [`Modules`](Modules/) | Modules (ESP32-WROOM-32U, ...) |
-| [`Connectors`](Connectors/) | Connectors |
-| [`Sensors`](Sensors/) | Sensors |
-| [`Crystals-Oscillators`](Crystals-Oscillators/) | Crystals and oscillators |
-| [`Switches-Buttons`](Switches-Buttons/) | Switches and buttons |
-| [`Displays`](Displays/) | Displays |
-| [`Protection`](Protection/) | Fuses, TVS, varistors and other protection |
-| [`Mechanical`](Mechanical/) | Mechanical parts (holes, standoffs, enclosures) |
-| [`Misc`](Misc/) | Everything else |
+| [`Resistors`](Components/Resistors/) | Resistors |
+| [`Capacitors`](Components/Capacitors/) | Capacitors |
+| [`Inductors-Relays-Chokes`](Components/Inductors-Relays-Chokes/) | Inductors, relays and chokes |
+| [`Diodes-LEDs`](Components/Diodes-LEDs/) | Diodes and LEDs |
+| [`Transistors`](Components/Transistors/) | Transistors and MOSFETs |
+| [`ICs`](Components/ICs/) | Integrated circuits |
+| [`MCUs`](Components/MCUs/) | Microcontrollers |
+| [`Modules`](Components/Modules/) | Modules (ESP32-WROOM-32U, ...) |
+| [`Connectors`](Components/Connectors/) | Connectors |
+| [`Sensors`](Components/Sensors/) | Sensors |
+| [`Crystals-Oscillators`](Components/Crystals-Oscillators/) | Crystals and oscillators |
+| [`Switches-Buttons`](Components/Switches-Buttons/) | Switches and buttons |
+| [`Displays`](Components/Displays/) | Displays |
+| [`Protection`](Components/Protection/) | Fuses, TVS, varistors and other protection |
+| [`Mechanical`](Components/Mechanical/) | Mechanical parts (holes, standoffs, enclosures) |
+| [`Misc`](Components/Misc/) | Everything else |
 
-## Folder structure
+## Repository layout
+
+```
+/
+├── Components/     all parts, sorted by category (one folder per part)
+├── Library-Info/   how to use the library, notes and changelog
+├── LICENSE
+├── README.md
+└── README.fa.md
+```
+
+- Looking for a specific part? Open [`Components`](Components/) and pick its category.
+- Want to know how to install and use the library? See [`Library-Info`](Library-Info/).
 
 Each part lives in its own folder inside its category:
 
 ```
-<Category>/
-└── <Part-Name>/
-    ├── <Part-Name>.step
-    ├── <Part-Name>.SchLib
-    ├── <Part-Name>.PcbLib
-    └── preview.png
+Components/<Category>/<Part-Name>/
+├── <Part-Name>.step
+├── <Part-Name>.SchLib
+├── <Part-Name>.PcbLib
+└── preview.png
 ```
 
 ## Download
@@ -46,21 +57,12 @@ Each part lives in its own folder inside its category:
 Everything in one package: go to the [**Releases**](https://github.com/africazani/africazani-altium-library/releases/latest) page and download the latest `.zip` from the *Assets* section. Each release has release notes listing what was added or changed.
 
 **Option 2 – A single part**
-Browse the category folders in this repository, open the part you need and download its files:
+Browse the [`Components`](Components/) folder, open the part you need and download its files:
 
-1. Open the part folder (e.g. `Modules/ESP32-WROOM-32U/`).
+1. Open the part folder (e.g. `Components/Modules/ESP32-WROOM-32U/`).
 2. Click a file, then the **Download raw file** button (or use *Code → Download ZIP* to get the whole repository).
 
-## How to use in Altium Designer
-
-1. Download the complete library from [Releases](https://github.com/africazani/africazani-altium-library/releases/latest), or a single part from its folder.
-2. In Altium Designer, add the `.SchLib` / `.PcbLib` files (or the `.IntLib`) via *Components → File-based Libraries Preferences*.
-3. The 3D body is linked to the footprint. If it doesn't show, re-link the `.step` file in the PCB Library panel.
-
-## Notes
-
-- Dimensions follow the manufacturer's datasheet. Always verify against the latest datasheet before manufacturing a board.
-- Logos and trademarks printed on the models belong to their respective owners.
+Installation steps and notes: see [Library-Info](Library-Info/).
 
 ## License
 
