@@ -2,7 +2,7 @@
 
 # Altium Library
 
-A collection of **Altium Designer** component libraries with detailed **3D STEP models** (including the markings printed on the ICs): schematic symbols, footprints and 3D bodies for modules, ICs, connectors, passives and many other parts.
+A collection of component libraries for **Altium Designer** and **KiCad**, with detailed **3D STEP models** (including the markings printed on the ICs): schematic symbols, footprints and 3D bodies for modules, ICs, connectors, passives and many other parts.
 
 ---
 
@@ -45,9 +45,9 @@ Each part lives in its own folder inside its category:
 
 ```
 Components/<Category>/<Part-Name>/
-├── <Part-Name>.step
-├── <Part-Name>.SchLib
-├── <Part-Name>.PcbLib
+├── Altium/    (.SchLib, .PcbLib)
+├── KiCad/     (.kicad_sym, .kicad_mod)
+├── STEP/      (.step – works in any CAD/EDA tool)
 └── preview.png
 ```
 
@@ -70,6 +70,8 @@ This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 You are free to use, modify, and distribute these files, including commercially, as long as you give credit:
 
 > 3D models and Altium library by **africazani** – https://github.com/africazani/africazani-altium-library
+
+How to credit the library in your own project: see [Library-Info](Library-Info/#crediting-this-library-in-your-project).
 
 ## Contact
 

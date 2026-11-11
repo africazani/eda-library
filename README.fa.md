@@ -4,7 +4,7 @@
 
 # کتابخانه آلتیوم
 
-مجموعه‌ای از کتابخانه‌های **Altium Designer** همراه با مدل‌های سه‌بعدی **STEP** با جزئیات بالا (شامل نوشته‌های روی IC ها): نماد شماتیک، فوت‌پرینت و بدنه‌ی سه‌بعدی برای ماژول‌ها، آی‌سی‌ها، کانکتورها، قطعات پسیو و بسیاری قطعات دیگر.
+مجموعه‌ای از کتابخانه‌های **Altium Designer** و **KiCad** همراه با مدل‌های سه‌بعدی **STEP** با جزئیات بالا (شامل نوشته‌های روی IC ها): نماد شماتیک، فوت‌پرینت و بدنه‌ی سه‌بعدی برای ماژول‌ها، آی‌سی‌ها، کانکتورها، قطعات پسیو و بسیاری قطعات دیگر.
 
 ---
 
@@ -53,9 +53,9 @@
 
 ```
 Components/<Category>/<Part-Name>/
-├── <Part-Name>.step
-├── <Part-Name>.SchLib
-├── <Part-Name>.PcbLib
+├── Altium/    (.SchLib, .PcbLib)
+├── KiCad/     (.kicad_sym, .kicad_mod)
+├── STEP/      (.step – works in any CAD/EDA tool)
 └── preview.png
 ```
 
@@ -80,6 +80,8 @@ Components/<Category>/<Part-Name>/
 استفاده، تغییر و انتشار این فایل‌ها (حتی تجاری) آزاد است، به شرط ذکر نام سازنده:
 
 > مدل‌های سه‌بعدی و کتابخانه‌ی آلتیوم توسط **africazani** – https://github.com/africazani/africazani-altium-library
+
+روش ذکر نام کتابخانه در پروژه‌ی خودتان: [Library-Info](Library-Info/README.fa.md) را ببینید.
 
 ## ارتباط
 
