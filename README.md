@@ -69,7 +69,7 @@ Installation steps and notes: see [Library-Info](Library-Info/).
 This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 You are free to use, modify, and distribute these files, including commercially, as long as you give credit:
 
-> 3D models and Altium library by **africazani** – https://github.com/africazani/africazani-altium-library
+> Altium/KiCad libraries and 3D models by **africazani** – https://github.com/africazani/africazani-altium-library
 
 How to credit the library in your own project: see [Library-Info](Library-Info/#crediting-this-library-in-your-project).
 

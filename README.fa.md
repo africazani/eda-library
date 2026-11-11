@@ -79,7 +79,7 @@ Components/<Category>/<Part-Name>/
 این اثر تحت لایسنس [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) منتشر شده است.
 استفاده، تغییر و انتشار این فایل‌ها (حتی تجاری) آزاد است، به شرط ذکر نام سازنده:
 
-> مدل‌های سه‌بعدی و کتابخانه‌ی آلتیوم توسط **africazani** – https://github.com/africazani/africazani-altium-library
+> کتابخانه‌های Altium/KiCad و مدل‌های سه‌بعدی توسط **africazani** – https://github.com/africazani/africazani-altium-library
 
 روش ذکر نام کتابخانه در پروژه‌ی خودتان: [Library-Info](Library-Info/README.fa.md) را ببینید.
 

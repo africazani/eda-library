@@ -35,7 +35,7 @@ Menu names can differ slightly between KiCad versions.
 The files are licensed under CC BY 4.0, so you need to give credit. You don't have to put it on the PCB itself. Add one line wherever your project is documented (README, credits page, BOM notes, video description):
 
 ```
-Altium/KiCad library and 3D models by africazani – https://github.com/africazani/africazani-altium-library (CC BY 4.0)
+Altium/KiCad libraries and 3D models by africazani – https://github.com/africazani/africazani-altium-library (CC BY 4.0)
 ```
 
 If you modified the files, mention that they were changed.

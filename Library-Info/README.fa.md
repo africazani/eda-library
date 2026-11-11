@@ -39,7 +39,7 @@
 </div>
 
 ```
-Altium/KiCad library and 3D models by africazani – https://github.com/africazani/africazani-altium-library (CC BY 4.0)
+Altium/KiCad libraries and 3D models by africazani – https://github.com/africazani/africazani-altium-library (CC BY 4.0)
 ```
 
 <div dir="rtl">
